@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ArvoresEDII" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="ArvoresEDII" prefix_auto="1" extension_auto="1" />
+				<Option object_output="C:\Documents and Settings\Usuario\Meus documentos\Gui\Programas\CodeBlocks 10\Projetos\ArvoresEDII\.objs" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="ArvoresEDII" prefix_auto="1" extension_auto="1" />
+				<Option object_output="C:\Documents and Settings\Usuario\Meus documentos\Gui\Programas\CodeBlocks 10\Projetos\ArvoresEDII\.objs" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="AVL.cpp" />
+		<Unit filename="AVL.h" />
+		<Unit filename="ArvoreBinaria.cpp" />
+		<Unit filename="ArvoreBinaria.h" />
+		<Unit filename="BMaisTree.cpp" />
+		<Unit filename="BMaisTree.h" />
+		<Unit filename="BST.cpp" />
+		<Unit filename="BST.h" />
+		<Unit filename="BTree.cpp" />
+		<Unit filename="BTree.h" />
+		<Unit filename="Estrutura.cpp" />
+		<Unit filename="Estrutura.h" />
+		<Unit filename="Gerenciador.cpp" />
+		<Unit filename="Gerenciador.h" />
+		<Unit filename="Hash.cpp" />
+		<Unit filename="Hash.h" />
+		<Unit filename="Lista.cpp" />
+		<Unit filename="Lista.h" />
+		<Unit filename="Printer.cpp" />
+		<Unit filename="Printer.h" />
+		<Unit filename="PrinterB.cpp" />
+		<Unit filename="PrinterB.h" />
+		<Unit filename="PrinterBMais.cpp" />
+		<Unit filename="PrinterBMais.h" />
+		<Unit filename="PrinterBinario.cpp" />
+		<Unit filename="PrinterBinario.h" />
+		<Unit filename="PrinterHash.cpp" />
+		<Unit filename="PrinterHash.h" />
+		<Unit filename="Splay.cpp" />
+		<Unit filename="Splay.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
